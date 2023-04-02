@@ -199,6 +199,7 @@ For this purpose, MinibatchKmeans and Kmeans++ will be selected as the best mode
 
 #### Cluster 4 Results
 The following are the results obtained when using 4 clusters.
+````
             RESULTS METRICS COMPARISON FOR USING 3 CLUSTERS.
 //=========================[]==============[]==================\\
 || Algorithm               || Davies Score || Silhouette Score ||
@@ -212,7 +213,7 @@ The following are the results obtained when using 4 clusters.
 || SpectralClusterer       || 4.206309     || 0.226269         ||
 \\=========================[]==============[]==================//
 
-
+````
 From the table above, we observe that the Gaussian mixture model had the lowest Davies score, while MiniBatchKmeans had the highest silhouette score. Overall, using various methods for clustering, we were able to obtain good results. The results showed the accurate metric in each algorithm, and based on the performance of each algorithm, we can select MiniBatchKmeans and Kmeans++ as the best models for cluster 3, and Gaussian mixture and MiniBatchKmeans as the best models for cluster 4.
 
 ---
