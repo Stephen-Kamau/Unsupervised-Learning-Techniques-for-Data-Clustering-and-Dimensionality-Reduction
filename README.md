@@ -178,6 +178,8 @@ In this analysis, we will be comparing the performance of different clustering a
 
 #### Cluster 3 Results
 The following are the results obtained for cluster 3:
+
+````
           RESULTS METRICS COMPARISON FOR USING 3 CLUSTERS.
 //=========================[]==============[]==================\\
 || Algorithm               || Davies Score || Silhouette Score ||
@@ -190,6 +192,7 @@ The following are the results obtained for cluster 3:
 || KMedoids_cosine         || 0.848656     || 0.366039         ||
 || AgglomerativeClustering || 0.938955     || 0.336498         ||
 \\=========================[]==============[]==================//
+````
 
 MiniBatchKmeans was the best-performing algorithm when based on the silhouette score followed by Kmeans and then the Gaussian mixture. This cluster seems to be having different results of which model is the best.
 For this purpose, MinibatchKmeans and Kmeans++ will be selected as the best model since they were first and second respectively when using silhouette score and second and third respectively when using the davies index
